@@ -1,0 +1,77 @@
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background: #2E2E2E;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(Island.jpg) no-repeat;
+    background-size: cover;
+}
+.box{
+    width: 450px;
+    background: rgba(0,0,0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
+.box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.box p{
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+    color: #b9b9b9;
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-between; 
+}
+.esposito{
+    display: flex;
+    justify-content: space-around; 
+}
+.esposito a{
+    color: white;
+    padding: 0px 40px;
+}
+.esposito li a:hover {
+    background-color: rgb(241, 158, 32);
+}
+.Gallery{
+    height: 250px;
+    width: 250px;
+}
